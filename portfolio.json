@@ -1,0 +1,203 @@
+{
+  "code": 0,
+  "data": {
+    "nextPositions": [
+      {
+        "product": {
+          "provider": "MockVault",
+          "chainId": 688688,
+          "address": "0xC6858c1C7047cEc35355Feb2a5Eb7bd1E051dDDf",
+          "depositAsset": {
+            "address": "0x72df0bcd7276f2dFbAc900D1CE63c272C4BCcCED",
+            "symbol": "USDC",
+            "name": "USDC",
+            "decimals": 6,
+            "chain": {
+              "id": 688688
+            }
+          },
+          "asset": {
+            "address": "0xC6858c1C7047cEc35355Feb2a5Eb7bd1E051dDDf",
+            "symbol": "mvUSDC",
+            "decimals": 6,
+            "name": "USDC Vault Shares",
+            "chain": {
+              "id": 688688
+            }
+          },
+          "name": "USDC Vault",
+          "tvl": 28320248.188718,
+          "fee": 0,
+          "dailyApy": 0.08
+        },
+        "depositUsd": 2571.483307
+      },
+      {
+        "product": {
+          "provider": "MockVault",
+          "chainId": 688688,
+          "address": "0xA1538E3A13D2A5b460F1b6e87b493962FC791959",
+          "depositAsset": {
+            "address": "0xD4071393f8716661958F766DF660033b3d35fD29",
+            "symbol": "USDT",
+            "name": "USDT",
+            "decimals": 6,
+            "chain": {
+              "id": 688688
+            }
+          },
+          "asset": {
+            "address": "0xA1538E3A13D2A5b460F1b6e87b493962FC791959",
+            "symbol": "mvUSDT",
+            "decimals": 6,
+            "name": "USDT Vault Shares",
+            "chain": {
+              "id": 688688
+            }
+          },
+          "name": "USDT Vault",
+          "tvl": 12290521.796214,
+          "fee": 0,
+          "dailyApy": 0.06
+        },
+        "depositUsd": 1174.418176
+      },
+      {
+        "product": {
+          "provider": "MockVault",
+          "chainId": 688688,
+          "address": "0xf1cf5d79be4682d50f7a60a047eaca9bd351ff8e",
+          "depositAsset": {
+            "address": "0x7F5e05460F927Ee351005534423917976F92495e",
+            "symbol": "MUSD",
+            "name": "MockUSD",
+            "decimals": 6,
+            "chain": {
+              "id": 688688
+            }
+          },
+          "asset": {
+            "address": "0xf1cf5d79be4682d50f7a60a047eaca9bd351ff8e",
+            "symbol": "mvMUSD",
+            "decimals": 6,
+            "name": "MockUSD Vault Shares",
+            "chain": {
+              "id": 688688
+            }
+          },
+          "name": "MockUSD Vault",
+          "tvl": 13157005.726051,
+          "fee": 0,
+          "dailyApy": 0.12
+        },
+        "depositUsd": 235.3178324705882
+      },
+      {
+        "product": {
+          "provider": "MockVault",
+          "chainId": 688688,
+          "address": "0xF7063aDA8537Bfc1AD01C59Dc4317f18dad45C4C",
+          "depositAsset": {
+            "address": "0x7F5e05460F927Ee351005534423917976F92495e",
+            "symbol": "MUSD",
+            "name": "MockUSD",
+            "decimals": 6,
+            "chain": {
+              "id": 688688
+            }
+          },
+          "asset": {
+            "address": "0xF7063aDA8537Bfc1AD01C59Dc4317f18dad45C4C",
+            "symbol": "mvMUSDA",
+            "decimals": 6,
+            "name": "MockUSD Vault A Shares",
+            "chain": {
+              "id": 688688
+            }
+          },
+          "name": "MockUSD Vault A",
+          "tvl": 6368461.784181,
+          "fee": 0,
+          "dailyApy": 0.1
+        },
+        "depositUsd": 176.48837435294118
+      },
+      {
+        "product": {
+          "provider": "MockVault",
+          "chainId": 688688,
+          "address": "0x2b56aA12e046bbBe69DbDb8F282A71CAb360dFca",
+          "depositAsset": {
+            "address": "0x7F5e05460F927Ee351005534423917976F92495e",
+            "symbol": "MUSD",
+            "name": "MockUSD",
+            "decimals": 6,
+            "chain": {
+              "id": 688688
+            }
+          },
+          "asset": {
+            "address": "0x2b56aA12e046bbBe69DbDb8F282A71CAb360dFca",
+            "symbol": "mvMUSDB",
+            "decimals": 6,
+            "name": "MockUSD Vault B Shares",
+            "chain": {
+              "id": 688688
+            }
+          },
+          "name": "MockUSD Vault B",
+          "tvl": 7305987.47351,
+          "fee": 0,
+          "dailyApy": 0.07
+        },
+        "depositUsd": 88.24418717647059
+      }
+    ],
+    "notes": "This portfolio prioritizes high APY products with TVL over $1 million USD to maximize returns. However, high APYs may not be sustainable long-term, and market conditions can cause fluctuations. Regularly review and rebalance your portfolio to adapt to changing yields.",
+    "changes": [
+      {
+        "type": "deposit",
+        "id": "de5da628-5990-49f5-9877-0370dbc376ac",
+        "token": {
+          "name": "MUSD",
+          "address": "0x7F5e05460F927Ee351005534423917976F92495e",
+          "decimals": 6,
+          "chainId": 688688,
+          "price": 1,
+          "amount": "19714579"
+        },
+        "product": {
+          "provider": "MockVault",
+          "chainId": 688688,
+          "address": "0x2b56aA12e046bbBe69DbDb8F282A71CAb360dFca",
+          "depositAsset": {
+            "address": "0x7F5e05460F927Ee351005534423917976F92495e",
+            "symbol": "MUSD",
+            "name": "MockUSD",
+            "decimals": 6,
+            "chain": {
+              "id": 688688
+            }
+          },
+          "asset": {
+            "address": "0x2b56aA12e046bbBe69DbDb8F282A71CAb360dFca",
+            "symbol": "mvMUSDB",
+            "decimals": 6,
+            "name": "MockUSD Vault B Shares",
+            "chain": {
+              "id": 688688
+            }
+          },
+          "name": "MockUSD Vault B",
+          "tvl": 7305987.47351,
+          "fee": 0,
+          "dailyApy": 0.07
+        },
+        "costs": {
+          "gasFee": 0.0075,
+          "platformFee": 0
+        }
+      }
+    ]
+  }
+}
